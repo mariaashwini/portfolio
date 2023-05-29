@@ -613,10 +613,20 @@ ul.clients li::before {
 	color: var(--text-black-900);
 	font-weight: 500;
 }
+.portfolio .portfolio-heading h4{
+	color: var(--text-black-900);
+	font-weight: 600;
+    text-decoration: underline;
+}
+}
 .portfolio .portfolio-item{
-	flex: 0 0 33.33%;
-	max-width: 33.33%;
+	/*flex: 0 0 33.33%;
+	max-width: 33.33%;*/
 	margin-bottom: 30px;
+}
+.portfolio-item h5{
+	text-align: center;
+	margin-top: 20px;
 }
 .portfolio .portfolio-item-inner{
 	border:6px solid var(--bg-black-100);
@@ -625,9 +635,20 @@ ul.clients li::before {
 	cursor: pointer;
 }
 .portfolio .portfolio-item-inner .portfolio-img img{
-	width: 100%;
+	width: 426px;
 	display: block;
-	height: 197px;
+	height: 200px;
+}
+.portfolio .portfolio-item-inner .logo-img img{
+	width: 300px;
+	display: block;
+	height: 200px;
+	cursor: default;
+}
+.portfolio .portfolio-item-inner .brochure-img img{
+	width: 230px;
+	display: block;
+	height: 275px;
 }
 /* Contact */
 .contact-title{
